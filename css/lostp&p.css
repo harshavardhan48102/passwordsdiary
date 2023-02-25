@@ -1,0 +1,116 @@
+body{
+    height: 95vh;
+    width: 98%;
+    background: linear-gradient(45deg, #85CDFD, #3C84AB);
+}
+
+.heading{
+    margin: 0;
+    font-size: 115%;
+    line-height: 5;
+    color: #DEFCF9;
+    text-align: center;
+}
+
+.h1{
+    /*padding-top: 100px;*/
+    font-family: cursive, Arial, Helvetica, sans-serif, serif;
+    text-align: center;
+}
+.heading1{
+    font-size: 120%;
+    text-align: center;
+}
+.heading2{
+    font-size: 110%;
+    text-align: center;
+}
+
+.recover-box{
+    border: 50px solid;
+    border-color: #362FD9;
+    border-width: 3px;
+    background: linear-gradient(45deg,#DEFCF9,#3C84AB, #85CDFD);
+    padding: 100px 100px 50px 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    width: 400px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.diary-icon{
+    border: 50px solid;
+    border-color: #362FD9;
+    border-width: 3px;
+    background: #DEFCF9;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+}
+
+.userd{
+    width: 60px;
+    height: 60px;
+}
+
+.recover{
+    width: 100%;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input[type="email"].form-control{
+    font-size: 16px;
+    outline: none;
+    width: calc(100%-36px);
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+input[type="email"].form-control:hover{
+    border: 2px solid #00425A;
+}
+
+input[type="email"].form-control:focus{
+    border: 2px solid #362FD9;
+}
+
+input[type="email"].form-control:active{
+    border: 2px solid #362FD9;
+}
+
+button{
+    outline: none;
+    background: #1C315E;
+    color: #fff;
+    padding: 16px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px #DEFCF9;
+}
